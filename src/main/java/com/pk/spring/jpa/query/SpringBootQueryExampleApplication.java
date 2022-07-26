@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.query;
+package com.pk.spring.jpa.query;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -13,8 +13,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-import com.bezkoder.spring.jpa.query.model.Tutorial;
-import com.bezkoder.spring.jpa.query.repository.TutorialRepository;
+import com.pk.spring.jpa.query.model.Tutorial;
+import com.pk.spring.jpa.query.repository.TutorialRepository;
 
 @SpringBootApplication
 public class SpringBootQueryExampleApplication implements CommandLineRunner {

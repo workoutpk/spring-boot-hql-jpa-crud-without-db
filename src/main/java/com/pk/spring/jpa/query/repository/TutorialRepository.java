@@ -1,17 +1,16 @@
-package com.bezkoder.spring.jpa.query.repository;
+package com.pk.spring.jpa.query.repository;
 
 import java.util.Date;
 import java.util.List;
 
 import javax.transaction.Transactional;
 
+import com.pk.spring.jpa.query.model.Tutorial;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.query.Param;
-
-import com.bezkoder.spring.jpa.query.model.Tutorial;
 
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
 

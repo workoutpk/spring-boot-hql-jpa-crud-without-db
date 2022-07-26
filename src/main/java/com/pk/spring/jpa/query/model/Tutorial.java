@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jpa.query.model;
+package com.pk.spring.jpa.query.model;
 
 import javax.persistence.*;
 import java.util.Date;
